@@ -1,6 +1,3 @@
-/* #333;
-#666;
-#ccc; */
 
 /* all -------------------------------------- */
 *{
@@ -14,7 +11,7 @@
 }
 
 body{
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color:#666;
   font-size:14px;
 }
@@ -29,10 +26,15 @@ body{
 
 /*layouts-------------------------------------------*/
 
-.header__nav, .header__bottom, .info, .works, .blog, .contact, .about-page__content{
+.header__nav, .header__bottom, .info, .works, .blog, .contact, .footer, .about-page__content{
   width: 100%;
   padding: 30px 50px;
   border-bottom: solid 1px #ccc;
+}
+
+.content__inner{
+  width:880px;
+  margin: 0 auto;
 }
 
 h1.site-title{
@@ -55,6 +57,9 @@ h2[class*="__header"]{
 /* header__nav ----- */
 .header__nav{
   height: 100px;
+}
+
+.header__nav .content__inner{
   display: flex;
   justify-content: space-between;
 }
@@ -86,4 +91,45 @@ h2[class*="__header"]{
 /* footer ---------- */
 .footer{
   text-align: center;
+}
+
+/* media-------------- */
+
+@media screen and (max-width: 880px){
+  .content__inner{
+    width:100%;
+    margin: 0;
+  }
+  .header__bottom .content__inner{
+    display: block !important;
+    padding-bottom:30px;
+  }
+
+  .header__bottom .right-info{
+    padding: 0px;
+  }
+
+  .info__content > *{
+    width: 180px;
+  }
+
+}
+
+@media screen and (max-width: 520px){
+  .info__content{
+    display: block !important;
+  }
+  .info__content > *{
+    margin: 0 auto !important;
+  }
+
+  .blog .blog__content .media{
+    display: block !important;
+  }
+  .blog .blog__content .media .media__img {
+    min-width:100%;
+  }
+  .blog .blog__content .media .media__img img{
+    width:100%;
+  }
 }

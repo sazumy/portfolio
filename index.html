@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/import.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Azumi's Portfolio Site</title>
 </head>
 
 <body>
@@ -13,24 +13,27 @@
 <!--header ------------------------------------------------>
     <header class="header">
       <div class="header__nav">
-        <nav class="header__nav--l">
-          <ul class="social-link">
-            <li class="social-link__fb">F</li>
-            <li class="social-link__tw">T</li>
-          </ul>
-        </nav>
-        <nav class="header__nav--r">
-          <ul class="page-nav">
-            <li class="page-nav__list">About</li>
-            <li class="page-nav__list">Works</li>
-            <li class="page-nav__list">Blog</li>
-            <li class="page-nav__list">Contact</li>
-          </ul>
-        </nav>
+        <div class="content__inner">
+          <nav class="header__nav--l">
+            <ul class="social-link">
+              <li class="social-link__fb">F</li>
+              <li class="social-link__tw">T</li>
+            </ul>
+          </nav>
+          <nav class="header__nav--r">
+            <ul class="page-nav">
+              <li class="page-nav__list">About</li>
+              <li class="page-nav__list">Works</li>
+              <li class="page-nav__list">Blog</li>
+              <li class="page-nav__list">Contact</li>
+            </ul>
+          </nav>
+        </div> <!--end.content__inner-->
       </div>
 
       <div class="header__bottom">
-        <div class="left-info">
+        <div class="content__inner">
+          <div class="left-info">
           <figure>
             <img class="keyvis" alt="トップ画像" width="300" src="img/goldfish1.jpg">
           </figure>
@@ -44,43 +47,49 @@
               </section>
             </div>
           </div>
+        </div> <!--end.content__inner-->
       </div>
     </header>
 <!--main -------------------------------------------------------------->
     <main class="index-page">
       <article class="info">
-        <h2 class="info__header">What I Can Do</h2>
-        <div class="info__content">
-        <section class="app">
-          <figure class="app__img">
-            <img alt="プログラミングのイメージ" src="img/pc.jpg">
-          </figure>
-          <div class="app__description">
-            <p>Ruby on Rails, JavaScript, PHPなどを持ちいたWEBアプリケーションが製作できます。</p>
-          </div>
-        </section>
-        <section class="design">
-          <figure class="design__img">
-            <img alt="DTPのイメージ" src="img/dtp.jpg">
-          </figure>
-          <div class="design__description">
-            <p>Photoshop, Illustratorなどを用いた紙媒体の製作物の製作実績をご紹介いたします。</p>
-          </div>
-        </section>
-        <section class="other">
-          <figure class="other__img">
-            <img alt="その他の作業のイメージ" src="img/other.jpg">
-          </figure>
-          <div class="other__description">
-            <p>動画コンテンツ・IT講習テキスト・講演実績などその他の実績をご紹介いたします。</p>
-          </div>
-        </section>
-        </div><!--end.info__content-->
+        <div class="content__inner">
+          <h2 class="info__header">What I Can Do</h2>
+          
+          <div class="info__content">
+            <section class="app">
+              <figure class="app__img">
+                <img alt="プログラミングのイメージ" src="img/pc.jpg">
+              </figure>
+              <div class="app__description">
+                <p>Ruby on Rails, JavaScript, PHPなどを持ちいたWEBアプリケーションが製作できます。</p>
+              </div>
+
+            </section>
+            <section class="design">
+              <figure class="design__img">
+                <img alt="DTPのイメージ" src="img/dtp.jpg">
+              </figure>
+              <div class="design__description">
+                <p>Photoshop, Illustratorなどを用いた紙媒体の製作物の製作実績をご紹介いたします。</p>
+              </div>
+            </section>
+
+            <section class="other">
+              <figure class="other__img">
+                <img alt="その他の作業のイメージ" src="img/other.jpg">
+              </figure>
+              <div class="other__description">
+                <p>動画コンテンツ・IT講習テキスト・講演実績などその他の実績をご紹介いたします。</p>
+              </div>
+            </section>
+          </div><!--end.info__content-->
+        </div><!--end.content__inner-->
       </article>
 
       <article class="works">
+        <div class="content__inner">
         <h2 class="works__header">Pick Up Works</h2>
-        <div class="works__content">
           <div class="slider">
             <img alt="slider" class="slide" src="http://placehold.jp/270x200.png">
             <img alt="slider" class="slide" src="http://placehold.jp/270x200.png">
@@ -90,25 +99,27 @@
           <div class="bottom-info">
             <p>See More</p>
           </div>
-        </div>
+        </div><!--end.content__inner-->
       </article>
 
       <article class="blog">
-        <h2 class="blog__header">Blog and Info.</h2>
-        <div class="blog__content">
-          <div class="media">
-            <figure class="media__img">
-              <img alt="dummy" src="http://placehold.jp/100x100.png">
-            </figure>
-            <p class="media__description">はてなブログでは日々の学習の気づきを書いています</p>
+        <div class="content__inner">
+          <h2 class="blog__header">Blog and Info.</h2>
+          <div class="blog__content">
+            <div class="media">
+              <figure class="media__img">
+                <img alt="dummy" src="http://placehold.jp/100x100.png">
+              </figure>
+              <p class="media__description">はてなブログでは日々の学習の気づきを書いています</p>
+            </div>
+            <div class="media">
+              <figure class="media__img">
+                <img alt="dummy" src="http://placehold.jp/100x100.png">
+              </figure>
+              <p class="media__descriprion">Wantedlyには転職活動に関する情報を記載しています</p>
+            </div>
           </div>
-          <div class="media">
-            <figure class="media__img">
-              <img alt="dummy" src="http://placehold.jp/100x100.png">
-            </figure>
-            <p class="media__descriprion">Wantedlyには転職活動に関する情報を記載しています</p>
-          </div>
-        </div>
+        </div><!--end.content__inner-->
       </article>
 
       <article class="contact">

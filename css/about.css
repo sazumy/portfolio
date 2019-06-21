@@ -1,0 +1,22 @@
+.about-page .about-page__content .inner{
+  display: flex;
+}
+
+.about-page .about-page__content .inner > *{
+  width: 50%;
+}
+
+.profile .profile__header{
+  font-size:1.2em;
+}
+
+.profile .profile__history *{
+  margin-top:5px;
+}
+figure.self-photo{
+  max-width: 50%;
+}
+
+figure.self-photo img{
+  text-align: center;
+}

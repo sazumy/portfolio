@@ -2,6 +2,9 @@
 /* header__bottom--- */
 .header__bottom{
   min-height: 300px;
+}
+
+.header__bottom .content__inner{
   display: flex;
 }
 
@@ -10,7 +13,7 @@
 }
 
 .header__bottom .left-info figure{
-  max-width: 50%;
+  max-width:300px;
   margin: 0 auto;
 }
 
@@ -36,14 +39,17 @@
 .info__content{
   display: flex;
   justify-content: space-around;
-  width: 70%;
   margin: 0 auto;
   text-align: center;
 }
 
-.info__content *{
+.info__content > *{
   margin: 7px;
   width: 250px;
+}
+
+.info__content img{
+  width:100%;
 }
 
 /* works---------- */
@@ -62,7 +68,7 @@
   padding: 10px;
   width: 50%;
   margin: 0 7px;
-  border: solid #666 1px;
+  border: solid #ccc 1px;
   border-radius:5px;
 }
 
