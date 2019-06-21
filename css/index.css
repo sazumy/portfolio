@@ -1,0 +1,87 @@
+/* index-page ----------------------- */
+/* header__bottom--- */
+.header__bottom{
+  min-height: 300px;
+  display: flex;
+}
+
+.header__bottom .left-info{
+  width: 50%;
+}
+
+.header__bottom .left-info figure{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.header__bottom .left-info figure .keyvis{
+  text-align: center;
+}
+
+.header__bottom .right-info{
+  padding: 30px;
+}
+
+.header__bottom .right-info .right-info__inner{
+  transform:translateY(50%);
+}
+
+.header__bottom .right-info .right-info__inner .site-description{
+  font-family: selif;
+}
+
+/* main ----------------------- */
+/* info---------- */
+
+.info__content{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info__content *{
+  margin: 7px;
+  width: 250px;
+}
+
+/* works---------- */
+
+.works .bottom-info{
+  text-align: right;
+}
+
+/* blog ---------- */
+.blog .blog__content{
+  display: flex;
+}
+
+.blog .blog__content .media{
+  display: flex;
+  padding: 10px;
+  width: 50%;
+  margin: 0 7px;
+  border: solid #666 1px;
+  border-radius:5px;
+}
+
+.blog .blog__content .media .media__img {
+  margin-right:7px;
+}
+
+/* contect(保留) ---------- */
+/* .contact{
+  &__form{
+    width:50%;
+    margin: 0 auto;
+    *{
+      line-height:2;
+    }
+    .submit{
+      width: 100%;
+      border: $content-border;
+      text-align: center;
+    }
+  }
+} */

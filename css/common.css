@@ -14,7 +14,7 @@
 }
 
 body{
-  font-family: 'Source Sans Pro', 'M PLUS 1p', sans-serif;
+  font-family: 'Noto Serif JP', serif;
   color:#666;
   font-size:14px;
 }
@@ -36,11 +36,13 @@ body{
 }
 
 h1.site-title{
+  font-family: 'Source Sans Pro', sans-serif;
   color: #333;
   font-size: 3em; 
 }
 
 h2[class*="__header"]{
+  font-family: 'Source Sans Pro', sans-serif;
   color: #333;
   font-size:2em;
   font-weight:400;
@@ -50,19 +52,6 @@ h2[class*="__header"]{
 }
 
 /* header & footer ------------- */
-.page-nav{
-  display: flex;
-}
-
-.page-nav__list{
-  width:70px;
-  height: 50px;
-  font-weight: bold;
-}
-
-
-/* index-page ----------------------- */
-/* header---------------- */
 /* header__nav ----- */
 .header__nav{
   height: 100px;
@@ -84,92 +73,15 @@ h2[class*="__header"]{
   text-align: center;
 }
 
-/* header__bottom--- */
-.header__bottom{
-  min-height: 300px;
+.page-nav{
   display: flex;
 }
 
-.header__bottom .left-info{
-  width: 50%;
+.page-nav__list{
+  width:70px;
+  height: 50px;
+  font-weight: bold;
 }
-
-.header__bottom .left-info figure{
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-.header__bottom .left-info figure .keyvis{
-  text-align: center;
-}
-
-.header__bottom .right-info{
-  padding: 30px;
-}
-
-.header__bottom .right-info .right-info__inner{
-  transform:translateY(50%);
-}
-
-.header__bottom .right-info .right-info__inner .site-description{
-  font-family: selif;
-}
-
-/* main ----------------------- */
-/* info---------- */
-
-.info__content{
-  display: flex;
-  justify-content: space-around;
-  width: 70%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.info__content *{
-  margin: 7px;
-  width: 250px;
-}
-
-/* works---------- */
-
-.works .bottom-info{
-  text-align: right;
-}
-
-/* blog ---------- */
-.blog .blog__content{
-  display: flex;
-}
-
-.blog .blog__content .media{
-  display: flex;
-  padding: 10px;
-  width: 50%;
-  margin: 0 7px;
-  border: solid #666 1px;
-  border-radius:5px;
-}
-
-.blog .blog__content .media .media__img {
-  margin-right:7px;
-}
-
-/* contect(保留) ---------- */
-/* .contact{
-  &__form{
-    width:50%;
-    margin: 0 auto;
-    *{
-      line-height:2;
-    }
-    .submit{
-      width: 100%;
-      border: $content-border;
-      text-align: center;
-    }
-  }
-} */
 
 /* footer ---------- */
 .footer{
