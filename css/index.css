@@ -76,6 +76,10 @@
   margin-right:7px;
 }
 
+.blog .blog__content .media .media__img img{
+  width: 100px;
+  height: 100px;
+}
 /* contect(保留) ---------- */
 /* .contact{
   &__form{

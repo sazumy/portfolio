@@ -1,8 +1,8 @@
-.about-page .about-page__content .inner{
+.about-page .about-page__content .content__inner{
   display: flex;
 }
 
-.about-page .about-page__content .inner > *{
+.about-page .about-page__content .content__inner > *{
   width: 50%;
 }
 
@@ -13,8 +13,9 @@
 .profile .profile__history *{
   margin-top:5px;
 }
+
 figure.self-photo{
-  max-width: 50%;
+  max-width: 100%;
 }
 
 figure.self-photo img{

@@ -109,6 +109,10 @@ h2[class*="__header"]{
     padding: 0px;
   }
 
+  .site-title, .site-description{
+    text-align: center;
+  }
+
   .info__content > *{
     width: 180px;
   }
