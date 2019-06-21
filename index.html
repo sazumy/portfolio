@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/import.css">
+  <script type="text/javascript" src="js/import.js"></script>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Azumi's Portfolio Site</title>
 </head>
@@ -16,8 +17,8 @@
         <div class="content__inner">
           <nav class="header__nav--l">
             <ul class="social-link">
-              <li class="social-link__fb">F</li>
-              <li class="social-link__tw">T</li>
+              <li class="social-link__fb fab fa-facebook-f"></li>
+              <li class="social-link__tw fab fa-twitter"></li>
             </ul>
           </nav>
           <nav class="header__nav--r">
@@ -62,6 +63,7 @@
                 <img alt="プログラミングのイメージ" src="img/pc.jpg">
               </figure>
               <div class="app__description">
+                <h3>WEB App & Design</h3>
                 <p>Ruby on Rails, JavaScript, PHPなどを持ちいたWEBアプリケーションが製作できます。</p>
               </div>
 
@@ -71,6 +73,7 @@
                 <img alt="DTPのイメージ" src="img/dtp.jpg">
               </figure>
               <div class="design__description">
+                <h3>DTP</h3>
                 <p>Photoshop, Illustratorなどを用いた紙媒体の製作物の製作実績をご紹介いたします。</p>
               </div>
             </section>
@@ -80,6 +83,7 @@
                 <img alt="その他の作業のイメージ" src="img/other.jpg">
               </figure>
               <div class="other__description">
+                  <h3>Other Works</h3>
                 <p>動画コンテンツ・IT講習テキスト・講演実績などその他の実績をご紹介いたします。</p>
               </div>
             </section>
@@ -123,28 +127,35 @@
       </article>
 
       <article class="contact">
-        <h2 class="contact__header">Contact Me</h2>
-        <div class="contact__form">
-          <p>Your Name*</p>
-          <p>Subject*</p>
-          <p>Your Email*</p>
-          <p class="submit">Submit</p>
-        </div>
+        <div class="content__inner">
+          <h2 class="contact__header">Contact Me</h2>
+          <div class="contact__form">
+            <p>Your Name*</p>
+            <p>Subject*</p>
+            <p>Your Email*</p>
+            <p class="submit">Submit</p>
+          </div>
+        </div><!--end.content__inner-->
       </article>
     </main>
 <!--footer ------------------------------------------------------>
     <footer class="footer">
-      <nav>
-        <ul class="page-nav">
-          <li class="page-nav__list">About</li>
-          <li class="page-nav__list">Works</li>
-          <li class="page-nav__list">Blog</li>
-          <li class="page-nav__list">Contact</li>
-        </ul>
-      </nav>
-      <small class="copy">
-        Copy Right © 2019 Seino Azumi, All Rights Reserved.
-      </small>
+      <div class="content__inner">
+        <nav>
+          <ul class="page-nav">
+            <li class="page-nav__list">About</li>
+            <li class="page-nav__list">Works</li>
+            <li class="page-nav__list">Blog</li>
+            <li class="page-nav__list">Contact</li>
+          </ul>
+        </nav>
+        <p id="scroll-top-btn">
+          <i class="fas fa-chevron-up icon-allow-up"></i>
+        </p>
+        <small class="copy">
+          Copy Right © 2019 Seino Azumi, All Rights Reserved.
+        </small>
+      </div><!--end.content__inner-->
     </footer>
   </div><!--end.wrapper--> 
 </body>
