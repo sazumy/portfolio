@@ -1,0 +1,177 @@
+/* #333;
+#666;
+#ccc; */
+
+/* all -------------------------------------- */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Source Sans Pro', 'M PLUS 1p', sans-serif;
+  color:#666;
+  font-size:14px;
+}
+
+/*-----icons --------------------------------------------------*/
+
+.icon-fb::before{
+  font-family: "Font Awesome 5 Brands";
+  content: '\f082';
+  font-weight: 400;
+}
+
+/*layouts-------------------------------------------*/
+
+.header__nav, .header__bottom, .info, .works, .blog, .contact, .about-page__content{
+  width: 100%;
+  padding: 30px 50px;
+  border-bottom: solid 1px #ccc;
+}
+
+h1.site-title{
+  color: #333;
+  font-size: 3em; 
+}
+
+h2[class*="__header"]{
+  color: #333;
+  font-size:2em;
+  font-weight:400;
+  line-height:1.2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* header & footer ------------- */
+.page-nav{
+  display: flex;
+}
+
+.page-nav__list{
+  width:70px;
+  height: 50px;
+  font-weight: bold;
+}
+
+
+/* index-page ----------------------- */
+/* header---------------- */
+/* header__nav ----- */
+.header__nav{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-link{
+  display: flex;
+}
+
+.social-link *{
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  font-size:2em; 
+  border: solid #666 1px;
+  border-radius:50%;
+  text-align: center;
+}
+
+/* header__bottom--- */
+.header__bottom{
+  min-height: 300px;
+  display: flex;
+}
+
+.header__bottom .left-info{
+  width: 50%;
+}
+
+.header__bottom .left-info figure{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.header__bottom .left-info figure .keyvis{
+  text-align: center;
+}
+
+.header__bottom .right-info{
+  padding: 30px;
+}
+
+.header__bottom .right-info .right-info__inner{
+  transform:translateY(50%);
+}
+
+.header__bottom .right-info .right-info__inner .site-description{
+  font-family: selif;
+}
+
+/* main ----------------------- */
+/* info---------- */
+
+.info__content{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info__content *{
+  margin: 7px;
+  width: 250px;
+}
+
+/* works---------- */
+
+.works .bottom-info{
+  text-align: right;
+}
+
+/* blog ---------- */
+.blog .blog__content{
+  display: flex;
+}
+
+.blog .blog__content .media{
+  display: flex;
+  padding: 10px;
+  width: 50%;
+  margin: 0 7px;
+  border: solid #666 1px;
+  border-radius:5px;
+}
+
+.blog .blog__content .media .media__img {
+  margin-right:7px;
+}
+
+/* contect(保留) ---------- */
+/* .contact{
+  &__form{
+    width:50%;
+    margin: 0 auto;
+    *{
+      line-height:2;
+    }
+    .submit{
+      width: 100%;
+      border: $content-border;
+      text-align: center;
+    }
+  }
+} */
+
+/* footer ---------- */
+.footer{
+  text-align: center;
+}
