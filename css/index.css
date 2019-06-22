@@ -59,6 +59,7 @@
 /* works（スライダーは別途指定）---------- */
 
 .works .bottom-info{
+  margin-top: 5px; 
   text-align: right;
 }
 

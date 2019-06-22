@@ -16,6 +16,19 @@ body{
   font-size:14px;
 }
 
+button{
+  appearance: none;
+  -webkit-appearance:none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
 /*-----icons --------------------------------------------------*/
 
 .icon-fb::before{
