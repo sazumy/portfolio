@@ -17,16 +17,16 @@
         <div class="content__inner">
           <nav class="header__nav--l">
             <ul class="social-link">
-              <li class="social-link__fb fab fa-facebook-f"></li>
-              <li class="social-link__tw fab fa-twitter"></li>
+              <a href="https://www.facebook.com/" target="_blank"><li class="social-link__fb fab fa-facebook-f"></li></a>
+              <a href="https://twitter.com/azmengineer" target="_blank"><li class="social-link__tw fab fa-twitter"></li></a>
             </ul>
           </nav>
           <nav class="header__nav--r">
             <ul class="page-nav">
-              <li class="page-nav__list">About</li>
-              <li class="page-nav__list">Works</li>
-              <li class="page-nav__list">Blog</li>
-              <li class="page-nav__list">Contact</li>
+              <li class="page-nav__list"><a href="about.html">About</a></li>
+              <li class="page-nav__list"><a href="works.html">Works</a></li>
+              <li class="page-nav__list"><a href="index.html#blog">Blog</a></li>
+              <li class="page-nav__list"><a href="index.html#contact">Contact</a></li>
             </ul>
           </nav>
         </div> <!--end.content__inner-->
@@ -98,16 +98,16 @@
           <div class="slideshow">
             <div class="slideshow-slides">
               <div class="slide">
-                <img alt="slider" src="http://placehold.jp/270x200.png">
+                <img alt="slider" src="img/sakuraen_thumb01.jpg" width="270">
               </div>
               <div class="slide">
-                  <img alt="slider" src="http://placehold.jp/270x200.png">
+                  <img alt="slider" src="img/moyacafe_thumb.jpg" width="270">
               </div>
               <div class="slide">
-                <img alt="slider" src="http://placehold.jp/270x200.png">
+                <img alt="slider" src="img/sakuraen_thumb02.jpg" width="270">
               </div>
               <div class="slide">
-                <img alt="slider" src="http://placehold.jp/270x200.png">
+                <img alt="slider" src="img/sugoroku_thumb.png" width="270">
               </div>
             </div>
           
@@ -121,39 +121,59 @@
 
           </div>
           <div class="bottom-info">
-            <p>See More</p>
+            <p><a href="works.html">See More</a></p>
           </div>
         </div><!--end.content__inner-->
       </article>
 
-      <article class="blog">
+      <article class="blog" id="blog">
         <div class="content__inner">
           <h2 class="blog__header">Blog and Info.</h2>
-          <div class="blog__content">
-            <div class="media">
-              <figure class="media__img">
-                <img alt="dummy" src="img/hatenablog-logo.svg">
-              </figure>
-              <p class="media__description">はてなブログでは日々の学習の気づきを書いています</p>
+            <div class="blog__content">
+              <a href="https://www.facebook.com/" target="_blank">
+                <div class="media">
+                  <figure class="media__img">
+                    <img alt="dummy" src="img/hatenablog-logo.svg">
+                  </figure>
+                  <p class="media__description">はてなブログでは日々の学習の気づきを書いています</p>
+                </div>
+              </a>
+            
+              <a href="https://www.wantedly.com/users/3373640" target="_blank">
+                <div class="media">
+                  <figure class="media__img">
+                    <img alt="dummy" src="img/wantedly_mark.svg">
+                  </figure>
+                  <p class="media__descriprion">Wantedlyには転職活動に関する情報を記載しています</p>
+                </div>
+              </a>
             </div>
-            <div class="media">
-              <figure class="media__img">
-                <img alt="dummy" src="img/wantedly_mark.svg">
-              </figure>
-              <p class="media__descriprion">Wantedlyには転職活動に関する情報を記載しています</p>
-            </div>
-          </div>
         </div><!--end.content__inner-->
       </article>
 
-      <article class="contact">
+      <article class="contact" id="contact">
         <div class="content__inner">
           <h2 class="contact__header">Contact Me</h2>
-          <div class="contact__form">
-            <p>Your Name*</p>
-            <p>Subject*</p>
-            <p>Your Email*</p>
-            <p class="submit">Submit</p>
+          <div class="contact__way">
+            <h3>下記よりコンタクトが可能です。お気軽にご連絡ください。</h3>
+
+            <div class="way">
+              <figure>
+                  <img src="img/wantedly_mark.svg" width="30">
+              </figure>
+              <p>メールアドレスを掲載しています</p>
+            </div>
+
+            <div class="way">
+              <a href="https://twitter.com/azmengineer" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="social-link__fb fab fa-facebook-f"></i>
+              </a>
+              <p>制作依頼・面談ご連絡歓迎します</p>
+            </div>
+
           </div>
         </div><!--end.content__inner-->
       </article>
@@ -163,10 +183,10 @@
       <div class="content__inner">
         <nav>
           <ul class="page-nav">
-            <li class="page-nav__list">About</li>
-            <li class="page-nav__list">Works</li>
-            <li class="page-nav__list">Blog</li>
-            <li class="page-nav__list">Contact</li>
+              <li class="page-nav__list"><a href="about.html">About</a></li>
+              <li class="page-nav__list"><a href="works.html">Works</a></li>
+              <li class="page-nav__list"><a href="index.html#blog">Blog</a></li>
+              <li class="page-nav__list"><a href="index.html#contact">Contact</a></li>
           </ul>
         </nav>
         <button class="scroll-top-btn">

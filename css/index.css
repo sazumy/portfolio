@@ -68,10 +68,14 @@
   display: flex;
 }
 
+.blog .blog__content a{
+  margin:0 3px;
+}
+
 .blog .blog__content .media{
   display: flex;
   padding: 10px;
-  width: 50%;
+  width: 100%;
   margin: 0 7px;
   border: solid #ccc 1px;
   border-radius:5px;
@@ -85,18 +89,16 @@
   width: 100px;
   height: 100px;
 }
-/* contect(保留) ---------- */
-/* .contact{
-  &__form{
-    width:50%;
-    margin: 0 auto;
-    *{
-      line-height:2;
-    }
-    .submit{
-      width: 100%;
-      border: $content-border;
-      text-align: center;
-    }
-  }
-} */
+.contact .contact__way{
+  max-width:380px;
+  margin: 0 auto;
+}
+
+.contact .contact__way .way{
+  margin-top: 5px;
+}
+
+.contact .contact__way .way > a{
+  font-size:1.5em;
+  margin-right: 5px;
+}
