@@ -52,7 +52,11 @@
   width:100%;
 }
 
-/* works---------- */
+.info div[class*="__description"]{
+  margin: 15px 0;
+}
+
+/* works（スライダーは別途指定）---------- */
 
 .works .bottom-info{
   text-align: right;
