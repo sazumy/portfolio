@@ -5,7 +5,8 @@
     "images": {
       "thumb": "img/works/chatApp_thumb.png",
       "large": "img/works/chatApp_large.png"
-    }
+    },
+    "description": "ユーザーはグループにテキストメッセージと画像が送信できます。<br>メッセージの送信は非同期通信で実装しました。自動更新機能付きです。"
   },
   {
     "id":102,
@@ -13,7 +14,8 @@
     "images": {
       "thumb": "img/works/merukariApp_thumb.jpg",
       "large": "img/works/merukariApp_large.jpg"
-    }
+    },
+    "description": ""
   },
   {
     "id":103,
@@ -21,7 +23,8 @@
     "images": {
       "thumb": "img/works/sugorokuApp_thumb.jpg",
       "large": "img/works/sugorokuApp_large.jpg"
-    }
+    },
+    "description": ""
   },
   {
     "id":201,
@@ -29,7 +32,8 @@
     "images": {
       "thumb": "img/works/sakuraenHP_thumb.jpg",
       "large": "img/works/sakuraenHP_large.jpg"
-    }
+    },
+    "description": ""
   },
   {
     "id":202,
@@ -37,7 +41,8 @@
     "images": {
       "thumb": "img/works/dljHP_thumb.jpg",
       "large": "img/works/dljHP_large.jpg"
-    }
+    },
+    "description": ""
   },
   {
     "id":203,
@@ -45,7 +50,8 @@
     "images": {
       "thumb": "img/works/portfolioHP_thumb.png",
       "large": "img/works/portfolioHP_large.png"
-    }
+    },
+    "description": ""
   },
   {
     "id":204,
@@ -53,7 +59,8 @@
     "images": {
       "thumb": "img/works/yururinHP_thumb.jpg",
       "large": "img/works/yururinHP_large.jpg"
-    }
+    },
+    "description": ""
   },
   
 
@@ -64,7 +71,8 @@
     "images": {
       "thumb": "img/works/sakuraen_leaf_DTP_thumb.jpg",
       "large": "img/works/sakuraen_leaf_DTP_large.jpg"
-    }
+    },
+    "description": ""
   },
   {
     "id":302,
@@ -72,7 +80,8 @@
     "images": {
       "thumb": "img/works/tokyoLP_leaf_DTP_thumb.png",
       "large": "img/works/tokyoLP_leaf_DTP_large.png"
-    }
+    },
+    "description": ""
   },
   {
     "id":303,
@@ -80,7 +89,8 @@
     "images": {
       "thumb": "img/works/moyacafe_event_DTP_thumb.jpg",
       "large": "img/works/moyacafe_event_DTP_large.jpg"
-    }
+    },
+    "description": ""
   },
   {
     "id":304,
@@ -88,7 +98,8 @@
     "images": {
       "thumb": "img/works/moyacafeDTP_thumb.jpg",
       "large": "img/works/moyacafeDTP_large.jpg"
-    }
+    },
+    "description": ""
   },
   {
     "id":305,
@@ -96,6 +107,7 @@
     "images": {
       "thumb": "img/works/logos_DTP_thumb.jpg",
       "large": "img/works/logos_DTP_large.jpg"
-    }
+    },
+    "description": ""
   }
 ]

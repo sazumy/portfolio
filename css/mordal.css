@@ -1,7 +1,7 @@
 #mordal{
   display: none;
   width: 200%;
-  height: 200%;
+  height: 1000%;
   background: rgba(0,0,0, 0.4);
   position: absolute;
   top: 0;
@@ -22,7 +22,7 @@
 
 .works__info{
   position: relative;
-  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 .works__info .right__content{
