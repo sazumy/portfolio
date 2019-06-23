@@ -4,27 +4,27 @@
     "title": "チャットアプリ",
     "images": {
       "thumb": "img/works/chatApp_thumb.png",
-      "large": "img/works/chatApp_large.png"
+      "large": "img/works/chatApp_large.gif"
     },
-    "description": "ユーザーはグループにテキストメッセージと画像が送信できます。<br>メッセージの送信は非同期通信で実装しました。自動更新機能付きです。"
+    "description": "ユーザーはグループにテキストメッセージと画像が送信できます。<br>メッセージの送信は非同期通信で実装しました。自動更新機能付きです。<br><br>ソースコードはこちら：<br>https://github.com/seinoazumi/chat-space"
   },
   {
     "id":102,
     "title": "メルカリコピーサイト",
     "images": {
       "thumb": "img/works/merukariApp_thumb.jpg",
-      "large": "img/works/merukariApp_large.jpg"
+      "large": "img/works/merukariApp_large.gif"
     },
-    "description": ""
+    "description": "プログラミングスクールの最終課題として作成した、メルカリのコピーサイトです。フロントエンドを中心として、スライダーの導入や商品検索機能を実装しました。<br><br>作成したWEBサイト: http://13.113.199.8<br>ID: admin<br>PW: 5555"
   },
   {
     "id":103,
     "title": "すごろくアプリ",
     "images": {
       "thumb": "img/works/sugorokuApp_thumb.jpg",
-      "large": "img/works/sugorokuApp_large.jpg"
+      "large": "img/works/sugorokuApp_large.gif"
     },
-    "description": ""
+    "description": "非同期通信でメニューを表示でき、JQueryでサイコロ機能を実装したすごろくアプリです。管理者機能も付いています。<br><br>ソースコードはこちら：<br>https://github.com/seinoazumi/shinjo"
   },
   {
     "id":201,
@@ -33,7 +33,7 @@
       "thumb": "img/works/sakuraenHP_thumb.jpg",
       "large": "img/works/sakuraenHP_large.jpg"
     },
-    "description": ""
+    "description": "川崎にある老舗焼肉店のホームページです。ご自身でメンテナンスを行いたいという希望に沿って、既存CMSを利用して作成しました。<br><br>URL：<br>https://www.yakiniku-sakuraen.com/"
   },
   {
     "id":202,
@@ -42,7 +42,7 @@
       "thumb": "img/works/dljHP_thumb.jpg",
       "large": "img/works/dljHP_large.jpg"
     },
-    "description": ""
+    "description": "私がボランティアで運営している団体のホームページです。既存WordPressテンプレートを加工して作成しました。<br><br>URL：<br>https://decentlife.jp/"
   },
   {
     "id":203,
@@ -51,7 +51,7 @@
       "thumb": "img/works/portfolioHP_thumb.png",
       "large": "img/works/portfolioHP_large.png"
     },
-    "description": ""
+    "description": "本ポートフォリオサイトです。Git hub pagesを利用した静的WEBページです。ご覧いただき、ありがとうございます！"
   },
   {
     "id":204,
@@ -60,7 +60,7 @@
       "thumb": "img/works/yururinHP_thumb.jpg",
       "large": "img/works/yururinHP_large.jpg"
     },
-    "description": ""
+    "description": "現在準備中"
   },
   
 
@@ -72,7 +72,7 @@
       "thumb": "img/works/sakuraen_leaf_DTP_thumb.jpg",
       "large": "img/works/sakuraen_leaf_DTP_large.jpg"
     },
-    "description": ""
+    "description": "飲食店のリーフレットです。adobe Illustrator, Photoshop使用。制作時間（8時間）"
   },
   {
     "id":302,
@@ -81,7 +81,7 @@
       "thumb": "img/works/tokyoLP_leaf_DTP_thumb.png",
       "large": "img/works/tokyoLP_leaf_DTP_large.png"
     },
-    "description": ""
+    "description": "都内の住宅支援サービスのリーフレットです。adobe Illustrator, Photoshop使用。制作時間（10時間）"
   },
   {
     "id":303,
@@ -90,7 +90,7 @@
       "thumb": "img/works/moyacafe_event_DTP_thumb.jpg",
       "large": "img/works/moyacafe_event_DTP_large.jpg"
     },
-    "description": ""
+    "description": "イベントのチラシです。制作時間（4時間）"
   },
   {
     "id":304,
@@ -99,7 +99,7 @@
       "thumb": "img/works/moyacafeDTP_thumb.jpg",
       "large": "img/works/moyacafeDTP_large.jpg"
     },
-    "description": ""
+    "description": "イベントのチラシです。制作時間（3時間）"
   },
   {
     "id":305,
@@ -108,6 +108,6 @@
       "thumb": "img/works/logos_DTP_thumb.jpg",
       "large": "img/works/logos_DTP_large.jpg"
     },
-    "description": ""
+    "description": "ロゴの表現を練習した時の作品たちです。参考書を見ながら作成しました。制作時間（各１時間）"
   }
 ]

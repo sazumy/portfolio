@@ -22,7 +22,7 @@
 
 .works__info{
   position: relative;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .works__info .right__content{
