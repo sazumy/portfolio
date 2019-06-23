@@ -83,6 +83,15 @@
   display: none;
 }
 
+/* works ページ ----------------------*/
+.gallery-item{
+  list-style:none;
+  margin-top: 10px; 
+}
+
+.gallery-item.is-loading{
+  opacity: 0;
+}
 /* topに戻るボタン ----------------------*/
 .no-js .scroll-top-btn{
   display: none;

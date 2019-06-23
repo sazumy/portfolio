@@ -1,0 +1,89 @@
+[
+  {
+    "title": "飲食店ホームページ",
+    "images": {
+      "thumb": "img/works/sakuraenHP_thumb.jpg",
+      "large": "img/works/sakuraenHP_large.jpg"
+    }
+  },
+  {
+    "title": "団体ホームページ",
+    "images": {
+      "thumb": "img/works/dljHP_thumb.jpg",
+      "large": "img/works/dljHP_large.jpg"
+    }
+  },
+  {
+    "title": "チャットアプリ",
+    "images": {
+      "thumb": "img/works/chatApp_thumb.png",
+      "large": "img/works/chatApp_large.png"
+    }
+  },
+  {
+    "title": "メルカリコピーサイト",
+    "images": {
+      "thumb": "img/works/merukariApp_thumb.jpg",
+      "large": "img/works/merukariApp_large.jpg"
+    }
+  },
+  {
+    "title": "すごろくアプリ",
+    "images": {
+      "thumb": "img/works/sugorokuApp_thumb.jpg",
+      "large": "img/works/sugorokuApp_large.jpg"
+    }
+  },
+  {
+    "title": "ポートフォリオサイト",
+    "images": {
+      "thumb": "img/works/portfolioHP_thumb.png",
+      "large": "img/works/portfolioHP_large.png"
+    }
+  },
+  {
+    "title": "アクセサリーショップホームページ",
+    "images": {
+      "thumb": "img/works/yururinHP_thumb.jpg",
+      "large": "img/works/yururinHP_large.jpg"
+    }
+  },
+  
+
+  
+  {
+    "title": "飲食店リーフレット",
+    "images": {
+      "thumb": "img/works/sakuraen_leaf_DTP_thumb.jpg",
+      "large": "img/works/sakuraen_leaf_DTP_large.jpg"
+    }
+  },
+  {
+    "title": "ホームシェアサービスリーフレット",
+    "images": {
+      "thumb": "img/works/tokyoLP_leaf_DTP_thumb.png",
+      "large": "img/works/tokyoLP_leaf_DTP_large.png"
+    }
+  },
+  {
+    "title": "イベントチラシ",
+    "images": {
+      "thumb": "img/works/moyacafe_event_DTP_thumb.jpg",
+      "large": "img/works/moyacafe_event_DTP_large.jpg"
+    }
+  },
+  {
+    "title": "イベントチラシ２",
+    "images": {
+      "thumb": "img/works/moyacafeDTP_thumb.jpg",
+      "large": "img/works/moyacafeDTP_large.jpg"
+    }
+  },
+  {
+    "title": "ロゴ表現の練習",
+    "images": {
+      "thumb": "img/works/logos_DTP_thumb.jpg",
+      "large": "img/works/logos_DTP_large.jpg"
+    }
+  }
+]
