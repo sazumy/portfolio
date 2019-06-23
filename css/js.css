@@ -98,6 +98,11 @@
 .gallery-item.is-loading{
   opacity: 0;
 }
+
+.gallery-item .hidden{
+  display: none;
+}
+
 /* topに戻るボタン ----------------------*/
 .no-js .scroll-top-btn{
   display: none;

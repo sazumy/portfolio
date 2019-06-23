@@ -1,0 +1,58 @@
+#mordal{
+  display: none;
+  width: 200%;
+  height: 200%;
+  background: rgba(0,0,0, 0.4);
+  position: absolute;
+  top: 0;
+  left: -50%;
+}
+#mordal__inner{
+  display: none;
+  width: 80%;
+  min-height:350px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  position: fixed;
+  top:10%;
+  left:10%;
+  background:#fff;
+}
+
+.works__info{
+  position: relative;
+  overflow-y: scroll;
+}
+
+.works__info .right__content{
+  margin-left: 10px;
+}
+
+.works__title{
+  font-size: 1.8em;
+  margin: 5px 0 10px 0;
+}
+.mordal__close{
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  font-size: 18px; 
+  background:rgba(220, 220, 220, 0.8);
+  position: absolute;
+  top:-20px;
+  right: -20px;
+  border-radius:50%; 
+}
+
+.mordal .mordal__inner .hidden{
+  display: flex;
+}
+
+.mordal .mordal__inner .hidden img{
+  width: 500px;
+}
+
+.mordal .mordal__inner .hidden_in_mordal{
+  display: none;
+}

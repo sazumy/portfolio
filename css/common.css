@@ -166,6 +166,11 @@ h3[class*="__header"]{
     margin: 0 auto;
   }
 
+  /* works-page --------------------------- */
+  .mordal .mordal__inner .hidden{
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 520px){
@@ -221,4 +226,5 @@ h3[class*="__header"]{
     max-width: 100%;
     margin: 0 auto;
   }
+
 }
