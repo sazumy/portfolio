@@ -39,7 +39,7 @@ a {
 
 /*layouts-------------------------------------------*/
 
-.header__nav, .header__bottom, .info, .works, .blog, .contact, .footer, .about-page__content{
+.header__nav, .header__bottom, .info, .works, .blog, .contact, .footer, .about-page__content, .works__content{
   width: 100%;
   padding: 30px 50px;
   border-bottom: solid 1px #ccc;
@@ -152,6 +152,19 @@ h3[class*="__header"]{
   .info__content > *{
     width: 180px;
   }
+/* about-page --------------------------- */
+  .about-page .about-page__content .content__inner{
+    display: block !important;
+  }
+
+  .about-page .about-page__content .content__inner > *{
+    width: 100% !important;
+  }
+
+  .inner__r .profile {
+    max-width: 70%;
+    margin: 0 auto;
+  }
 
 }
 
@@ -201,5 +214,11 @@ h3[class*="__header"]{
   }
   .blog .blog__content .media .media__img img{
     width:100%;
+  }
+
+/* about-page --------------------------- */
+  .inner__r .profile {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }

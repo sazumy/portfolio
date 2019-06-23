@@ -8,14 +8,17 @@
 
 .profile .profile__header{
   font-size:1.2em;
+  margin-top: 20px;
+  text-align: left;
 }
 
 .profile .profile__history *{
   margin-top:5px;
 }
 
-figure.self-photo{
-  max-width: 100%;
+figure.self_photo{
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 figure.self-photo img{
