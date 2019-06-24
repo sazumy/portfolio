@@ -42,7 +42,7 @@
       "thumb": "img/works/dljHP_thumb.jpg",
       "large": "img/works/dljHP_large.jpg"
     },
-    "description": "私がボランティアで運営している団体のホームページです。既存WordPressテンプレートを加工して作成しました。<br><br>URL：<br>https://decentlife.jp/"
+    "description": "清野がボランティアで運営している団体のホームページです。既存WordPressテンプレートを加工して作成しました。<br><br>URL：<br>https://decentlife.jp/"
   },
   {
     "id":203,
@@ -51,7 +51,7 @@
       "thumb": "img/works/portfolioHP_thumb.png",
       "large": "img/works/portfolioHP_large.png"
     },
-    "description": "本ポートフォリオサイトです。Git hub pagesを利用した静的WEBページです。ご覧いただき、ありがとうございます！なお、イラストは自作の手書きです。"
+    "description": "本ポートフォリオサイトです。Git hub pagesを利用した静的WEBページです。ご覧いただき、ありがとうございます！なお、イラストは自作の手書きです。<br><br>ソースコードはこちら：<br>https://github.com/seinoazumi/portfolio"
   },
   {
     "id":204,
@@ -90,7 +90,7 @@
       "thumb": "img/works/moyacafe_event_DTP_thumb.jpg",
       "large": "img/works/moyacafe_event_DTP_large.jpg"
     },
-    "description": "イベントのチラシです。制作時間（4時間）"
+    "description": "イベントのチラシです。adobe Illustrator, Photoshop使用。制作時間（4時間）"
   },
   {
     "id":304,
@@ -99,7 +99,7 @@
       "thumb": "img/works/moyacafeDTP_thumb.jpg",
       "large": "img/works/moyacafeDTP_large.jpg"
     },
-    "description": "イベントのチラシです。制作時間（3時間）"
+    "description": "イベントのチラシです。adobe Illustrator, Photoshop使用。制作時間（3時間）"
   },
   {
     "id":305,
