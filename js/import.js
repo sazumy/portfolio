@@ -5,3 +5,4 @@ document.write('<script src="js/masonry.pkgd.min.js"></script>');
 document.write('<script src="js/animation.js"></script>');
 document.write('<script src="js/slider.js"></script>');
 document.write('<script src="js/gallery.js"></script>');
+document.write('<script src="js/progress.js"></script>');
